@@ -22,6 +22,10 @@ TECHNOLOGIES USED\
 *NODE JS\
 
 
+@authors
+-@matheuscrok
+-@lucamartins
+
 
 # Getting Started with Create React App
 
