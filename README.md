@@ -8,7 +8,7 @@
 *Programs directory in the root folder (installers of programs that are in this directory will be recognized)\
 *Drivers directory in the root folder (drivers installed in this directory will be recognized)\
 *Machine status (system menu)\
-*Information of users logged into the machine with the option to delete user (BE CAREFUL WHEN CLICKING DELETE BECAUSE ALL USER DATA WILL BE DELETED)\
+*Information of users logged into the machine with the option to delete user (BE CAREFUL WHEN CLICKING DELETE BECAUSE ALL USER DATA WILL BE DELETED)
 
 # 1º- yarn install
 # 2º- yarn run electron:dev
