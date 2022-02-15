@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device">
+	<title> Satisfação </title>
+	<style type="text/css">
+		body {
+			background-image: url(wallpaper.jpg);
+			background-repeat: no-repeat; 
+			background-size: 100%; 
+			background-attachment: fixed;
+		}
+		.container {
+			display: flex;
+			align-items: flex-end;
+		}
+		.column {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<br></br>
+		<br></br>
+		<br></br>
+		<h1> Como foi a sua avaliação </h1>
+		<br></br>
+			<link rel="icon" type="imagem/png" href="/Users/caio/Desktop/memo-openmoji.png">
+			<div class="container">
+				<div class="column">
+					<a href="" onclick="Avaliar(1)">
+						<img src="/Users/caio/Desktop/emoji/Pessimo.png" id="s1"></a>
+							<h2>Pessimo</h2>
+				</div>
+				<div class="column">
+					<a href="javascript:void(0)" onclick="Avaliar(2)">
+						<img src="/Users/caio/Desktop/emoji/Ruim.png" id="s2"></a>
+							<h2>Ruim</h2>
+				</div>
+				<div class="column">
+					<a href="javascript:void(0)" onclick="Avaliar(3)">
+						<img src="/Users/caio/Desktop/emoji/Regular.png" id="s3"></a>
+							<h2>Regular</h2>
+				</div>
+				<div class="column">
+					<a href="javascript:void(0)" onclick="Avaliar(4)">
+						<img src="/Users/caio/Desktop/emoji/Bom.png" id="s4"></a>
+							<h2>Bom</h2>
+				</div>
+				<div class="column">
+					<a href="javascript:void(0)" onclick="Avaliar(5)">
+						<img src="/Users/caio/Desktop/emoji/Excelente.png" id="s5"></a>
+							<h2>Excelente</h2>
+				</div>
+			</div>
+	</center>
+</body>
