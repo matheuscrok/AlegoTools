@@ -1,0 +1,63 @@
+//
+// Variables
+//
+
+$color-navbar: #000;
+$color-footer: #2B2E3B;
+$color-footer-sub1: #56E39F;
+$color-footer-sub2: #8D91C7;
+$color-rendered-background: #18191A;
+
+
+$white: white;
+$black: black;
+$raisin-black: rgba(43, 46, 59, 1);
+$eerie-black: rgba(24, 25, 26, 1);
+$medium-aquamarine: rgba(86, 227, 159, 1);
+$violet-blue-crayola: rgba(126, 120, 210, 1);
+$orange-yellow-crayola: rgba(255, 210, 90, 1);
+$ruby-red: #a31621;
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet Landscape
+[1200 - 1800]:  is where our normal styles apply
+1800px + :      Big desktop
+$breakpoint arguement choices:
+- phone (width: 600px)
+- tab-port (width: 900px)
+- tab-land (width: 1200px)
+- big-desktop (width: 1800px)
+- custom-dimension-1 (width: 1600px)
+ORDER: Base + typography > general layout + grid > page layout > components
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } // 600px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } // 900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    } // 1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } // 1800px
+  }
+  @if $breakpoint == custom-dimension-1 {
+    @media only screen and (max-width: 100em) {
+      @content;
+    } // 1600px
+  }
+}

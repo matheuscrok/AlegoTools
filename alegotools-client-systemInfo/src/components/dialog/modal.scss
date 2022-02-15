@@ -1,0 +1,58 @@
+@import '../../shared.scss';
+
+.overlay {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(#000, .7);
+}
+
+.modal {
+  // Presets
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1rem 2rem rgba(#000, .4);
+
+  // Style
+  background-color: rgba($raisin-black, 1);
+  border: 1px solid rgba(white, .3);
+  padding: 2rem;
+  height: 20rem;
+  width: 35rem;
+  border-radius: 8px;
+
+  // Display
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  // Media queries
+  @include respond(custom-1400) {
+    width: 30vw;
+    height: 25vh;
+  }
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  color: #fff;
+  transition: all .2s;
+
+  &:hover {
+    color: $violet-blue-crayola;
+  }
+}

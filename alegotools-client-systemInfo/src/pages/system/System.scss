@@ -1,0 +1,52 @@
+@import '../../_shared.scss';
+
+.systeminfo {
+  color: rgba(white, .5);
+}
+
+.system-info-cont {
+  background-color: #18191A;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+.system-info-list {
+  background-color: #18191A;
+  font-size: 2.6rem;
+  color: white;
+  padding: 2rem;
+
+  &__item {
+    list-style: none;
+
+    &__name {
+      display: inline-block;
+      color: rgba(white, .5)
+    }
+
+    &__value {
+      display: inline-block;
+    }
+  }
+}
+
+
+.users-list-title {
+  padding: 2rem 0rem;
+  font-size: 3.2rem;
+  background-color: transparent;
+  // display: inline-block;
+  color: #56E39F;
+  text-align: center;
+}
+
+.users-list {
+  // overflow-y: 'scroll';
+  // max-height: '600px';
+
+  // overflow-y: scroll;
+  // height: 300px;
+
+  background-color: rgba(0, 0, 0, .2);
+}

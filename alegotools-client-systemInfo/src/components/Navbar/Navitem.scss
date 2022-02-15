@@ -1,0 +1,26 @@
+@import '../../_shared.scss';
+
+.navitem {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  transition: transform 0.3s;
+
+  &__icon {
+    font-size: 2.5rem;
+  }
+
+  &__text {
+    font-size: 2rem;
+    display: inline-block;
+  }
+  
+  @include respond (tab-land) {
+    & {
+      flex-flow: column nowrap;
+      gap: 1.5rem;
+    }
+  }
+}

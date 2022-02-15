@@ -1,0 +1,14 @@
+.Item-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #E5E5E5;
+  }
+
+  .Item-field {
+    border: none;
+    outline: none;
+    font-size: 18px;
+  }

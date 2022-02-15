@@ -1,0 +1,55 @@
+@import '../../_shared.scss';
+
+.Item-field {
+  width: 800px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.ModalBtn {
+  margin-left: 100px;
+}
+
+.modal-text {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.modal {
+  &__btn {
+    font-size: 1.6rem;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    border: solid 1px black;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    transition: all .4s;
+
+    &--confirm {
+      color: white;
+      background-color: transparent;
+
+      &:hover {
+        transform: translateY(-2px);
+        border: solid 1px red;
+        color: red;
+      }
+    }
+
+    &--cancell {
+      color: black;
+      background-color: green;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}
+
+.modal__btn__cont {
+  display: flex;
+  flex-flow: row nowrap;
+  align-self: flex-end;
+  gap: 1rem;
+}

@@ -1,0 +1,24 @@
+@import '../../_shared.scss';
+
+.home {
+  height: 100%;
+  width: 100%;
+  background-color: $color-rendered-background;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    padding: 1.2rem;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: $color-footer-sub2;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    color: $color-footer-sub2;
+  }
+}
