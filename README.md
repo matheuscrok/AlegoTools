@@ -10,18 +10,18 @@
 *Machine status (system menu)\
 *Information of users logged into the machine with the option to delete user (BE CAREFUL WHEN CLICKING DELETE BECAUSE ALL USER DATA WILL BE DELETED)\
 
-# 1º- yarn install\
-# 2º- yarn run electron:dev\
+# 1º- yarn install
+# 2º- yarn run electron:dev
 
-# TECHNOLOGIES USED\
-# -FRONT-END\
+# TECHNOLOGIES USED
+# -FRONT-END
 *REACT JS\
 
-# -BACKEND\
+# -BACKEND
 *ELECTRON JS\
 *NODE JS\
 
 
-# authors/
--@matheuscrok/
+# authors
+-@matheuscrok\
 -@lucamartins
