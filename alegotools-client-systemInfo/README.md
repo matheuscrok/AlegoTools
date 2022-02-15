@@ -2,7 +2,7 @@
 
 *diretório programas na pasta raiz (instaladores de programas que estiverem nesse diretório serão reconhecidos)\
 *diretório drivers na pasta raiz (instaladores de drivers que estiverem nesse diretório serão reconhecidos)\
-*Status da maquina (menu system)\
+*Status da maquina (menu sistema)\
 *Informações de usuários logados na máquina com opção de excluir usuário (CUIDADO AO CLICAR EM EXCLUIR POIS TODOS DADOS DO USUÁRIO SERÃO DELETADOS)\
 
 *programs directory in the root folder (installers of programs that are in this directory will be recognized)\
